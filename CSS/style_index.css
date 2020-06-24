@@ -10,7 +10,8 @@ main {
 #sidebar {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    max-height: 700px;
+    min-height: 760px;
+    max-height: 760px;
 }
 
 header {

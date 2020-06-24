@@ -1,0 +1,38 @@
+body {
+    max-width: 400px;
+}
+
+main {
+    min-height: 800px;
+    max-height: 800px;
+}
+
+#menu-top, #menu-bottom {
+    font-family: 'Open Sans', sans-serif;
+    height: 55px;
+}
+
+#home-button, #follow-button, #bookmark-button, #search-button {
+    height: 100%;
+}
+
+section {
+    min-height: 800px;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+
+span {
+    font-size: 13px;
+}
+
+input::placeholder {
+    font-family: "Font Awesome 5 Pro";
+} 

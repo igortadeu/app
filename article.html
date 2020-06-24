@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Artigo</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-red.css">
+
+        <link rel="stylesheet" href="/css/style_article.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
+
+        <script src="JS/actions.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="w3-bar w3-display-container w3-theme-d3" id="menu-top">
+            <div class="w3-threequarter w3-display-left">
+                <a href="index.html" class="w3-bar-item w3-button w3-hover-none">
+                    <i class='fas fa-arrow-left' style='font-size:24px'></i>
+                </a>
+            </div>
+            <div class="quarter w3-display-right">
+                <div class="w3-cell-row">
+                    <div class="w3-cell" id="bookmark">
+                        <a href="#" class="w3-bar-item w3-button w3-hover-none">
+                            <i class='far fa-bookmark' style='font-size:20px'></i>
+                        </a>
+                    </div>
+                    <div class="w3-cell" id="share">
+                        <a href="#" class="w3-bar-item w3-button w3-hover-none">
+                            <i class='fas fa-share-square' style='font-size:20px'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main id="content">
+            <div id="article-img">
+                <img id="img" src="Images/stock_icms.jpg" alt="ICMS">
+            </div>
+            <article>
+                <div class="w3-cell-row w3-light-grey" id="article-header">
+                    <div class="w3-cell" style="width: 90%;" id="article-title">
+                        <h4 class="w3-text-grey" id="headline">                      
+                            Fundação João Pinheiro mantém cálculo de distribuição do ICMS disponível para consulta em site
+                        </h4>
+                        <div id="date">
+                            Por Débora, em 8 de maio de 2020 às 14h35
+                        </div>
+                        <div id="reading-time">
+                            <i class='far fa-clock' style='font-size:10px'></i> 3 minutos
+                        </div>
+                    </div>
+                    <div class="w3-cell" id="article-options">
+                        <div class="w3-cell-middle" id="resize-plus">
+                            <a href="#" onclick="fontSizePlus(); return false;" class="w3-button w3-hover-none">
+                                <i class='fas fa-plus-square' style='font-size:16px'></i>
+                            </a>
+                        </div>
+                        <div class="w3-cell-middle" id="resize-minus">
+                            <a href="#" onclick="fontSizeMinus(); return false;" class="w3-button w3-hover-none">
+                                <i class='fas fa-minus-square' style='font-size:16px'></i>
+                            </a>
+                        </div>
+                        <div class="w3-cell-middle" id="listen">
+                            <a href="#" class="w3-button w3-hover-none">
+                                <i class='fas fa-volume-down' style='font-size:16px'></i>
+                            </a>
+                        </div>
+                        <div class="w3-cell-middle" id="dark-mode">
+                            <a href="#" onclick="darkMode(); return false;" class="w3-button w3-hover-none">
+                                <i class='fas fa-file-alt' style='font-size:16px'></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-text-dark-grey" id="article-text">
+                    Responsável pelo cálculo da cota-parte do ICMS/IPI-exportação para os 853 municípios de Minas Gerais, 
+                    a Fundação João Pinheiro disponibiliza as atualizações mensais do Índice de Participação de cada localidade no endereço
+                     http://www.fjp.mg.gov.br/robin-hood/index.php/indices/mesatual. No site, os municípios também podem consultar seus dados 
+                     e índices para cada um dos 18 critérios de distribuição, de acordo com o que estabelece a Lei 18.030/2009.
+
+                    O cálculo da cota-parte é feito a partir de índices apurados por vários órgãos e entidades estaduais e tem como base dados e informações 
+                    enviadas pelos próprios municípios e homologadas por essas instituições. Contabilizados todos os índices por critério, calcula-se o Índice de Participação, 
+                    que corresponde aos índices ponderados... 
+                </div>
+            </article>
+        </main>
+        <div class="w3-container w3-theme-d3" id="menu-bottom">
+            <div class="w3-quarter" id="home-button">
+                <a href="index.html" class="w3-button w3-hover-none">
+                    <i class="fa fa-home" style="font-size:20px"></i><span><br>Início</span>
+                </a>
+            </div>
+            <div class="w3-quarter" id="follow-button">
+                <a href="follow.html" class="w3-button w3-hover-none">
+                    <i class='far fa-newspaper' style='font-size:20px'></i><span><br>Seguir</span>
+                </a>
+            </div>
+            <div class="w3-quarter" id="bookmark-button"> 
+                <a href="bookmark.html" class="w3-button w3-hover-none">
+                    <i class='far fa-bookmark' style='font-size:20px'></i><span><br>Favoritos</span>
+                </a>
+            </div>
+            <div class="w3-quarter" id="search-button"> 
+                <a href="search.html" class="w3-button w3-hover-none">
+                    <i class='fas fa-search' style='font-size:20px'></i><span><br>Pesquisar</span>
+                </a>
+            </div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>

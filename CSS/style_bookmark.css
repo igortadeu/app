@@ -1,0 +1,62 @@
+body {
+    max-width: 400px;
+}
+
+main {
+    min-height: 800px;
+    max-height: 800px;
+}
+
+header {
+    height: 350px;
+}
+
+article {
+    height: 150px;
+}
+
+#menu-top, #menu-bottom {
+    font-family: 'Open Sans', sans-serif;
+    height: 55px;
+}
+
+/* Button styling  */
+
+#home-button, #follow-button, #bookmark-button, #search-button {
+    height: 100%;
+}
+
+/* Image styling  */
+
+#header-img {
+    width: 100%;
+    height: 100%;
+}
+
+#img {
+    height: 100%;
+    width: 100%;
+}
+
+#article-img {
+    padding: 30px 0 30px 0;
+}
+
+#article-text, #article-img {
+    height: 100%;
+}
+
+/* Font styling */
+
+h6 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+span {
+    font-size: 13px;
+}

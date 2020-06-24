@@ -1,0 +1,80 @@
+body {
+    max-width: 400px;
+}
+
+main {
+    min-height: 800px;
+}
+
+#sidebar {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+
+header {
+    height: 350px;
+}
+
+article {
+    height: 150px;
+}
+
+#menu-top, #menu-bottom, #top-bar {
+    font-family: 'Open Sans', sans-serif;
+    height: 55px;
+}
+
+#article-text, #article-img {
+    height: 100%;
+}
+
+/* Button styling  */
+
+#home-button, #follow-button, #bookmark-button, #search-button, #pop-button, #latest-button, #collection-button {
+    height: 100%;
+}
+
+#pop-button, #latest-button, #collection-button {
+    height: 100%;
+    border-style: none none solid none;
+    border-color: #b72214;
+}
+
+/* Image styling  */
+
+#header-img {
+    width: 100%;
+    height: 100%;
+}
+
+#article-img {
+    padding: 30px 0 30px 0;
+}
+
+#img {
+    height: 100%;
+    width: 100%;
+}
+
+#logo {
+    height: 60%;
+    width: 20%;
+}
+
+/* Font styling */
+
+h6 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    padding: 0 10px 0 10px;
+    color: white;
+}
+
+span {
+    font-size: 13px;
+}

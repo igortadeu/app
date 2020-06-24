@@ -23,17 +23,12 @@ article {
 
 #menu-top, #menu-bottom, #top-bar {
     font-family: 'Open Sans', sans-serif;
-    height: 45px;
+    height: 55px;
 }
 
 /* Button styling  */
 
-#home-button, #follow-button, #bookmark-button, #search-button, #pop-button, #latest-button, #collection-button {
-    height: 100%;
-}
-
 #pop-button, #latest-button, #collection-button {
-    height: 100%;
     border-style: none none solid none;
     border-color: #b72214;
 }
@@ -46,6 +41,7 @@ article {
 }
 
 #article-img {
+    height: 120px;
     padding: 10px 0 10px 0;
 }
 

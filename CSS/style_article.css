@@ -13,14 +13,10 @@ header {
 
 #menu-top, #menu-bottom {
     font-family: 'Open Sans', sans-serif;
-    height: 45px;
+    height: 55px;
 }
 
 /* Button styling  */
-
-#home-button, #follow-button, #bookmark-button, #search-button {
-    height: 100%;
-}
 
 #resize, #dark-mode, #bookmark, #share {
     height: 100%;
@@ -31,10 +27,6 @@ span {
 }
 
 /* Image styling  */
-
-/* #article-img {
-    height: 200px;
-} */
 
 #img {
     height: 100%;

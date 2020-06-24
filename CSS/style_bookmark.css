@@ -1,10 +1,10 @@
 body {
-    max-width: 400px;
+    min-width: 300px;
+    max-width: 300px;
 }
 
 main {
-    min-height: 800px;
-    /* max-height: 800px; */
+    min-height: 500px;
 }
 
 header {
@@ -12,12 +12,13 @@ header {
 }
 
 article {
-    height: 150px;
+    min-height: 140px;
+    border-style: none none solid none;
 }
 
 #menu-top, #menu-bottom {
     font-family: 'Open Sans', sans-serif;
-    height: 55px;
+    height: 45px;
 }
 
 /* Button styling  */
@@ -51,12 +52,14 @@ article {
 h6 {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
+    font-size: 12px;
 }
 
 h5 {
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 span {
-    font-size: 13px;
+    font-size: 10px;
 }

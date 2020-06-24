@@ -1,27 +1,24 @@
 body {
-    max-width: 400px;
+    min-width: 300px;
+    max-width: 300px;
 }
 
 main {
-    min-height: 800px;
-    /* max-height: 800px; */
+    min-height: 500px;
 }
 
 #menu-top, #menu-bottom {
     font-family: 'Open Sans', sans-serif;
-    height: 55px;
+    height: 45px;
 }
 
 #home-button, #follow-button, #bookmark-button, #search-button {
     height: 100%;
 }
 
-section {
-    min-height: 800px;
-}
-
 h5 {
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 h3 {
@@ -30,7 +27,7 @@ h3 {
 }
 
 span {
-    font-size: 13px;
+    font-size: 10px;
 }
 
 input::placeholder {

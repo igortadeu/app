@@ -4,7 +4,7 @@ body {
 
 main {
     min-height: 800px;
-    max-height: 800px;
+    /* max-height: 800px; */
 }
 
 #menu-top, #menu-bottom {

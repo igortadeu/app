@@ -1,5 +1,5 @@
 function darkMode() {
-    document.getElementById("article-header").classList.remove("w3-light-grey");
+    document.getElementById("article_header").classList.remove("w3-light-grey");
     document.getElementById("article_header").classList.add("w3-black");
     document.getElementById("article_header").classList.add("w3-text-grey");
 

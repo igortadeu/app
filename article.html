@@ -13,12 +13,13 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-red.css">
 
-        <link rel="stylesheet" href="CSS/style_article.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="CSS/style_article.css">
         <script src="JS/actions.js"></script>
     </head>
     <body>
@@ -27,7 +28,7 @@
         <![endif]-->
         <main id="content">
 
-            <nav class="w3-bar w3-display-container w3-theme-d3" id="menu-top">
+            <nav class="w3-bar w3-display-container w3-theme-d3" id="menu_top">
                 <div class="w3-threequarter w3-display-left">
                     <a href="index.html" class="w3-bar-item w3-button w3-hover-none">
                         <i class='fas fa-arrow-left w3-large'></i>
@@ -49,29 +50,30 @@
                 </div>
             </nav>
 
-            <div id="article-img">
-                <img id="img" src="Images/stock_icms.jpg" alt="ICMS">
+            <div id="article_image">
+                <img src="Images/stock_icms.jpg" alt="ICMS" id="pic">
             </div>
+
             <article>
-                <div class="w3-cell-row w3-light-grey" id="article-header">
-                    <div class="w3-cell" style="width: 90%;" id="article-title">
+                <div class="w3-cell-row w3-light-grey" id="article_header">
+                    <div class="w3-cell" style="width: 90%;" id="article_title">
                         <h4 class="w3-text-grey" id="headline">                      
                             Fundação João Pinheiro mantém cálculo de distribuição do ICMS disponível para consulta em site
                         </h4>
                         <div id="date">
                             Por Débora, em 8 de maio de 2020 às 14h35
                         </div>
-                        <div id="reading-time">
+                        <div id="reading_time">
                             <i class='far fa-clock' style='font-size:10px'></i> 3 minutos
                         </div>
                     </div>
-                    <div class="w3-cell" id="article-options">
-                        <div class="w3-cell-middle" id="resize-plus">
+                    <div class="w3-cell" style="width: 10%;" id="article_options">
+                        <div class="w3-cell-middle" id="resize_plus">
                             <a href="#" onclick="fontSizePlus(); return false;" class="w3-button w3-hover-none">
                                 <i class='fas fa-plus-square' style='font-size:16px'></i>
                             </a>
                         </div>
-                        <div class="w3-cell-middle" id="resize-minus">
+                        <div class="w3-cell-middle" id="resize_minus">
                             <a href="#" onclick="fontSizeMinus(); return false;" class="w3-button w3-hover-none">
                                 <i class='fas fa-minus-square' style='font-size:16px'></i>
                             </a>
@@ -81,14 +83,14 @@
                                 <i class='fas fa-volume-down' style='font-size:16px'></i>
                             </a>
                         </div>
-                        <div class="w3-cell-middle" id="dark-mode">
+                        <div class="w3-cell-middle" id="dark_mode">
                             <a href="#" onclick="darkMode(); return false;" class="w3-button w3-hover-none">
                                 <i class='fas fa-file-alt' style='font-size:16px'></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="w3-container w3-text-dark-grey" id="article-text">
+                <div class="w3-container w3-text-dark-grey" id="article_text">
                     Responsável pelo cálculo da cota-parte do ICMS/IPI-exportação para os 853 municípios de Minas Gerais, 
                     a Fundação João Pinheiro disponibiliza as atualizações mensais do Índice de Participação de cada localidade no endereço
                      http://www.fjp.mg.gov.br/robin-hood/index.php/indices/mesatual. No site, os municípios também podem consultar seus dados 
@@ -100,25 +102,25 @@
                 </div>
             </article>
 
-            <nav class="w3-cell-row w3-bottom w3-theme-d3" id="menu-bottom">
-                <div class="w3-cell" id="home-button">
+            <nav class="w3-cell-row w3-bottom w3-theme-d3" id="menu_bottom">
+                <div class="w3-cell" id="home_button">
                     <button class="w3-button w3-block w3-hover-none">
                         <a href="index.html"><i class="fa fa-home" style="font-size:18px"></i><span><br>Início</span></a>
                     </button>
                 </div>
-                <div class="w3-cell" id="follow-button">
+                <div class="w3-cell" id="follow_button">
                     <button class="w3-button w3-block w3-hover-none">
                         <a href="follow.html"><i class='far fa-newspaper' style='font-size:18px'></i><span><br>Seguir</span></a>
                     </button>
                 </div>
-                <div class="w3-cell" id="bookmark-button"> 
+                <div class="w3-cell" id="bookmark_button"> 
                     <button class="w3-button w3-block w3-hover-none">
                         <a href="bookmark.html"><i class='far fa-bookmark' style='font-size:18px'></i><span><br>Favoritos</span></a>
                     </button>
                 </div>
-                <div class="w3-cell" id="search-button"> 
+                <div class="w3-cell" id="option_button"> 
                     <button class="w3-button w3-block w3-hover-none">
-                        <a href="search.html"> <i class='fas fa-search' style='font-size:18px'></i><span><br>Pesquisar</span></a>
+                        <a href="option.html"> <i class='fa fa-gear' style='font-size:18px'></i><span><br>Opções</span></a>
                     </button>
                 </div>
             </nav>

@@ -2,6 +2,11 @@ header {
     height: 350px;
 }
 
+#menu_top, #menu_bottom {
+    font-family: 'Open Sans', sans-serif;
+    height: 55px;
+}
+
 /* Articles styling  */
 
 #article_button {
@@ -12,20 +17,12 @@ header {
     width: 80%;
 }
 
-#article_img {
-    width: 20%;
-}
-
 #pic {
     width: 100%;
 }
 
 /* end */
 
-#menu-top, #menu-bottom {
-    font-family: 'Open Sans', sans-serif;
-    height: 55px;
-}
 
 /* Font styling */
 

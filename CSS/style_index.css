@@ -5,7 +5,7 @@
 
 /* end */
 
-#top-bar {
+#top_bar {
     height: 40px;
 }
 
@@ -39,11 +39,11 @@ header {
 
 /* end */
 
-#menu-top, #menu-bottom, #top-bar {
+#menu_top, #menu_bottom, #top_bar {
     font-family: 'Open Sans', sans-serif;
 }
 
-#pop-button, #latest-button, #collection-button {
+#pop_button, #latest_button, #collection_button {
     border-style: none none solid none;
     border-color: #b72214;
 }

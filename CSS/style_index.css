@@ -1,7 +1,7 @@
-body {
+/* body {
     min-width: 380px;
     max-width: 380px;
-}
+} */
 
 main {
     min-height: 700px;
@@ -18,14 +18,30 @@ header {
     height: 250px;
 }
 
-article {
-    min-height: 140px;
-    border-style: none none solid none;
+/* Articles styling  */
+
+#article_button {
+    height: 120px;
+    text-decoration: none;
 }
+
+#article_headline {
+    width: 80%;
+}
+
+#article_img {
+    width: 20%;
+}
+
+#pic {
+    height: 100%;
+    width: 100%;
+}
+
+/* End */
 
 #menu-top, #menu-bottom, #top-bar {
     font-family: 'Open Sans', sans-serif;
-    height: 55px;
 }
 
 /* Button styling  */
@@ -37,23 +53,13 @@ article {
 
 /* Image styling  */
 
-#header-img {
+#header_image {
     width: 100%;
     height: 100%;
 }
 
-#article-img {
-    height: 120px;
-    padding: 10px 0 10px 0;
-}
-
-#img {
-    height: 100%;
-    width: 100%;
-}
-
-#logo {
-    height: 60%;
+#header_logo {
+    height: 20%;
     width: 20%;
 }
 
@@ -62,14 +68,11 @@ article {
 h6 {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
-    font-size: 12px;
 }
 
 h4 {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
-    font-size: 15px;
-    padding: 0 10px 0 10px;
     color: white;
 }
 

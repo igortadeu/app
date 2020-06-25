@@ -14,6 +14,10 @@ main {
     max-height: 760px;
 }
 
+#top-bar {
+    height: 40px;
+}
+
 header {
     height: 250px;
 }
@@ -43,8 +47,6 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Button styling  */
-
 #pop-button, #latest-button, #collection-button {
     border-style: none none solid none;
     border-color: #b72214;
@@ -69,7 +71,7 @@ h6 {
     font-weight: 600;
 }
 
-h4 {
+h5 {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
     color: white;
@@ -77,4 +79,8 @@ h4 {
 
 span {
     font-size: 10px;
+}
+
+#title {
+    font-size: 20px;
 }

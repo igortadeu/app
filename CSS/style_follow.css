@@ -1,14 +1,10 @@
-body {
+/* body {
     min-width: 380px;
     max-width: 380px;
-}
+} */
 
 main {
     min-height: 700px;
-}
-
-header {
-    height: 350px;
 }
 
 #menu-top, #menu-bottom {
@@ -21,16 +17,26 @@ span {
 }
 
 #follow {
-    height: 80px;
+    height: 60px;
+}
+
+#name {
+    width: 90%;
+}
+
+#like {
+    width: 10%;
 }
 
 h6 {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
-    font-size: 13px;
 }
 
 h5 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
 }

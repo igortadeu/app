@@ -35,7 +35,6 @@ header {
 
 #article_button {
     height: 120px;
-    text-decoration: none;
 }
 
 #article_headline {
@@ -50,7 +49,7 @@ header {
     width: 100%;
 }
 
-/* End */
+/* end */
 
 #menu-top, #menu-bottom, #top-bar {
     font-family: 'Open Sans', sans-serif;
@@ -87,4 +86,8 @@ h5 {
 
 span {
     font-size: 10px;
+}
+
+a {
+    text-decoration: none;
 }

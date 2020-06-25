@@ -1,7 +1,7 @@
-body {
+/* body {
     min-width: 380px;
     max-width: 380px;
-}
+} */
 
 main {
     min-height: 700px;
@@ -11,34 +11,29 @@ header {
     height: 350px;
 }
 
-article {
-    min-height: 140px;
-    border-style: none none solid none;
+/* Articles styling  */
+
+#article_button {
+    height: 120px;
 }
+
+#article_headline {
+    width: 80%;
+}
+
+#article_img {
+    width: 20%;
+}
+
+#pic {
+    width: 100%;
+}
+
+/* end */
 
 #menu-top, #menu-bottom {
     font-family: 'Open Sans', sans-serif;
     height: 55px;
-}
-
-/* Button styling  */
-
-
-/* Image styling  */
-
-#header-img {
-    width: 100%;
-    height: 100%;
-}
-
-#img {
-    height: 100%;
-    width: 100%;
-}
-
-#article-img {
-    height: 120px;
-    padding: 10px 0 10px 0;
 }
 
 /* Font styling */
@@ -46,14 +41,16 @@ article {
 h6 {
     font-family: 'Jost', sans-serif;
     font-weight: 600;
-    font-size: 12px;
 }
 
 h5 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
 }
 
 span {
     font-size: 10px;
+}
+
+a {
+    text-decoration: none;
 }

@@ -1,7 +1,7 @@
-body {
+/* body {
     min-width: 380px;
     max-width: 380px;
-}
+} */
 
 main {
     min-height: 700px;
@@ -28,4 +28,8 @@ span {
 
 input::placeholder {
     font-family: "Font Awesome 5 Pro";
-} 
+}
+
+a {
+    text-decoration: none;
+}

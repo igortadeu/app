@@ -1,3 +1,11 @@
+#content {
+    width: 400px;
+}
+
+#menu_bottom {
+    width: 400px;
+}
+
 #menu_top, #menu_bottom {
     font-family: 'Open Sans', sans-serif;
     height: 55px;

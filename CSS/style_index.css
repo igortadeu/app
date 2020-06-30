@@ -1,4 +1,13 @@
+#content {
+    width: 400px;
+}
+
+#menu_bottom {
+    width: 400px;
+}
+
 /* Sidebar */
+
 #sidebar {
     font-family: 'Open Sans', sans-serif;
 }
@@ -34,7 +43,8 @@ header {
 }
 
 #pic {
-    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 /* end */
@@ -56,8 +66,8 @@ header {
 }
 
 #header_logo {
-    height: 20%;
-    width: 20%;
+    height: 60px;
+    width: 80px;
 }
 
 /* Font styling */
@@ -78,4 +88,8 @@ span {
 
 a {
     text-decoration: none;
+}
+
+input {
+    max-width: 500px;
 }

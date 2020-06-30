@@ -46,3 +46,14 @@ function showAccordion() {
       x.previousElementSibling.className.replace(" w3-theme-d3", "");
     }
 }
+
+function openTab(tabName) {
+    var i;
+    var x = document.getElementsByClassName("article");
+
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+
+    document.getElementById(tabName).style.display = "block";
+}

@@ -43,57 +43,47 @@
                 <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Concursos</a>
                 <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Contas regionais</a>
                 <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Cursos</a>
-                <!-- <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Desenvolvimento municipal e regional</a>
-                <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Estudos históricos</a>
-                <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Finanças públicas</a>
-                <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">FJP 50 anos</a>
-                <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Gênero e diversidade</a>
-                <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Gestão pública</a>
-                <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Indicadores sociais</a>
-                <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Insumo-Produto</a>
-                <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Mercado de trabalho</a>
-                <a href="#" class="w3-bar-item w3-button w3-leftbar w3-border-light-grey w3-hover-border-dark-grey">Pesquisas em saúde</a> -->
             </div>
         </div>
         <main id="content">
 
             <nav class="w3-cell-row w3-theme-d3" id="top_bar">
-                <a href="#" onclick="w3_open()" class="w3-cell w3-padding" style="width: 20px; "id="threebars-button">
+                <a href="#" onclick="w3_open()" class="w3-cell w3-padding" style="width: 20px;" id="threebars_button">
                     <i class="fa fa-bars w3-xlarge"></i>
                 </a>
-                <a href="#" onclick="w3_open()" class="w3-cell w3-rest w3-padding" id="threebars-button">
-                    <input class="w3-cell w3-input w3-round w3-light-grey fas" name="search" type="text" placeholder="&#xf002; &nbsp; Pesquise por um artigo...">
+                <a href="#" class="w3-cell w3-rest w3-padding" id="searchbar">
+                    <input class="w3-cell w3-input w3-round w3-light-grey fas" name="search" type="text" placeholder="&#xf002; &nbsp; Pesquise por um artigo">
                 </a>
             </nav>
 
             <nav class="w3-cell-row w3-theme-d3" id="menu_top">
-                <a href="#" class="w3-cell w3-button w3-hover-none w3-hover-border-white" id="pop_button">
-                    Popular
-                </a>
-                <a href="#" class="w3-cell w3-button w3-hover-none w3-hover-border-white" id="latest_button">
+                <a href="#" onclick="openTab('latest')" class="w3-cell w3-button w3-hover-none w3-hover-border-white" id="latest_button">
                     Últimas
                 </a>
-                <a href="#" class="w3-cell w3-button w3-hover-none w3-hover-border-white" id="collection_button">
+                <a href="#" onclick="openTab('popular')" class="w3-cell w3-button w3-hover-none w3-hover-border-white" id="pop_button">
+                    Popular
+                </a>
+                <a href="#" onclick="openTab('special')" class="w3-cell w3-button w3-hover-none w3-hover-border-white" id="collection_button">
                     Especial
                 </a>
             </nav>
 
             <header class="w3-display-container w3-opacity w3-hover-opacity-off">
-                <img src="Images/stock_header.jpg" alt="Header" id="header_image">
-                <img src="Images/logo_fjp.png" alt="Logo" class="w3-display-topleft w3-padding" id="header_logo">
+                <img src="Images/stock_header.jpg" class="w3-image" id="header_image" alt="Header">
+                <img src="Images/logo_fjp.png" class="w3-display-topleft w3-padding" id="header_logo" alt="Logo">
                 <h5 class="w3-display-bottomleft w3-padding" id="header_headline">
                     Fundação João Pinheiro divulga análise sobre o mercado de trabalho mineiro no primeiro trimestre de 2020
                 </h5>
             </header>
 
-            <section id="articles">
+            <section class="article" id="latest">
                 <article>
                     <a href="article.html" class="w3-cell-row w3-border-bottom" id="article_button">
                         <div class="w3-cell w3-padding" id="article_headline">
                             <h6>Fundação João Pinheiro mantém cálculo de distribuição do ICMS disponível para consulta em site</h6>
                         </div>
                         <div class="w3-cell" id="article_image">
-                            <img src="Images/stock_icms.jpg" alt="ICMS" id="pic">
+                            <img src="Images/stock_icms.jpg" class="w3-image" id="pic" alt="ICMS">
                         </div>
                     </a>
                 </article>
@@ -103,7 +93,7 @@
                             <h6>Observatório das Desigualdades analisa como a Covid-19 impacta os diferentes segmentos sociais</h6>
                         </div>
                         <div class="w3-cell" id="article_image">
-                            <img src="Images/stock_virus.jpg" alt="Virus" id="pic">
+                            <img src="Images/stock_virus.jpg" class="w3-image" id="pic" alt="Virus">
                         </div>
                     </a>
                 </article>
@@ -113,12 +103,48 @@
                             <h6>FJP faz análise dos investimentos anunciados para Minas Gerais entre 2010 e 2019</h6>
                         </div>
                         <div class="w3-cell" id="article_image">
-                            <img src="Images/stock_chart.jpg" alt="Chart" id="pic">
+                            <img src="Images/stock_chart.jpg" class="w3-image" id="pic" alt="Chart">
                         </div>
                     </a>
                 </article>
             </section>
 
+            <section class="article" id="popular" style="display: none;">
+                <article>
+                    <a href="article.html" class="w3-cell-row w3-border-bottom" id="article_button">
+                        <div class="w3-cell w3-padding" id="article_headline">
+                            <h6>Observatório das Desigualdades analisa como a Covid-19 impacta os diferentes segmentos sociais</h6>
+                        </div>
+                        <div class="w3-cell" id="article_image">
+                            <img src="Images/stock_virus.jpg" class="w3-image" id="pic" alt="Virus">
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="article.html" class="w3-cell-row w3-border-bottom" id="article_button">
+                        <div class="w3-cell w3-padding" id="article_headline">
+                            <h6>FJP faz análise dos investimentos anunciados para Minas Gerais entre 2010 e 2019</h6>
+                        </div>
+                        <div class="w3-cell" id="article_image">
+                            <img src="Images/stock_chart.jpg" class="w3-image" id="pic" alt="Chart">
+                        </div>
+                    </a>
+                </article>
+            </section>
+
+            <section class="article" id="special" style="display: none;">
+                <article>
+                    <a href="article.html" class="w3-cell-row w3-border-bottom" id="article_button">
+                        <div class="w3-cell w3-padding" id="article_headline">
+                            <h6>FJP faz análise dos investimentos anunciados para Minas Gerais entre 2010 e 2019</h6>
+                        </div>
+                        <div class="w3-cell" id="article_image">
+                            <img src="Images/stock_chart.jpg" class="w3-image" id="pic" alt="Chart">
+                        </div>
+                    </a>
+                </article>
+            </section>
+            
             <nav class="w3-cell-row w3-bottom w3-theme-d3" id="menu_bottom">
                 <div class="w3-cell" id="home_button">
                     <button class="w3-button w3-block w3-hover-none">
